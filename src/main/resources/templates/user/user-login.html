@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<!--<head th:replace="~{layout/header :: head}">
+</head>-->
+<body>
+<div th:insert="~{layout/header :: header}"></div>
+
+<div id="posts_list">
+    <div class="container col-md-6">
+        <form th:action="@{/auth/loginProc}" method="post">
+            <input type="hidden" name="_csrf" th:value="${_csrf.token}"/>
+            <div class="form-group">
+                <label>아이디</label>
+                <input type="text" class="form-control" name="username" placeholder="아이디를 입력해주세요">
+            </div>
+
+            <div class="form-group">
+                <label>비밀번호</label>
+                <input type="password" class="form-control" name="password" placeholder="비밀번호를 입력해주세요">
+            </div>
+
+            <span th:if="${error}">
+                <p id="valid" class="alert alert-danger" th:text="${exception}"></p>
+            </span>
+
+            <button type="submit" class="form-control btn btn-primary bi bi-lock-fill"> 로그인</button>
+        </form>
+    </div>
+</div>
+
+<div th:replace="~{layout/footer :: footer}"></div>
+</body>
+</html>

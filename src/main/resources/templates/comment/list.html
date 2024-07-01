@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:fragment="list">
+<!-- Comments -->
+<div class="card">
+    <div class="card-header bi bi-chat-dots" >
+        <span th:if="${comments}" th:text="${comments.size}">
+        </span> Comments
+
+    </div>
+    <!-- 댓글내용 부분 -->
+    <ul class="list-group-flush">
+        <li th:each="comment : ${comments}" th:id="'comments-' + ${comment.id}" class="list-group-item">
+            <span>
+                <span style="font-size: small" th:text="${comment.nickname}"></span>
+                <span style="font-size: xx-small" th:text="${comment.createdDate}"></span>
+            </span>
+            <span th:if="${isWriter}" >
+                <a type="button" data-toggle="collapse" th:data-target="'.multi-collapse-' + ${comment.id}"
+                   class="bi bi-pencil-square"></a> <!-- 댓글 수정 버튼 -->
+                <a type="button" th:onclick="'main.commentDelete(' + ${posts.id} + ',' + ${comment.id} + ',' + ${comment.userId} + ',' + ${sessionId} + ')'"
+                   class="bi bi-x-square"></a> <!-- 댓글 삭제 버튼 -->
+            </span>
+
+            <!-- 댓글 내용 보기 -->
+            <p th:class="'collapse multi-collapse-'+${comment.id}+' show'" th:text="${comment.comment}"></p>
+
+            <!-- 댓글 내용 수정 -->
+            <form th:class="'collapse multi-collapse-'+${comment.id}">
+                <input type="hidden" th:id="'id'" th:value="${comment.id}">
+                <input type="hidden" th:id="'postsId'" th:value="${posts.id}">
+                <input type="hidden" th:id="'writerUserId'" th:value="${comment.userId}">
+<!--                <input type="hidden" th:id="'sessionUserId'" th:value="${sessionUserId}">-->
+                <input type="hidden" th:if="${user}" th:id="'sessionUserId'" th:value="${user.id}">
+                <div class="form-group">
+                    <textarea class="form-control" th:id="'comment-content'" rows="3" th:text="${comment.comment}"></textarea>
+                </div>
+                <button type="button" id="btn-comment-update" class="btn btn-outline-primary bi bi-pencil-square"> 수정</button>
+            </form>
+        </li>
+    </ul>
+</div>
+<br/>
+</html>

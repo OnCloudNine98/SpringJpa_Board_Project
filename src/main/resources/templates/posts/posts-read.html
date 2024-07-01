@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<div th:replace="~{layout/header :: header}"></div>
+<br/>
+<div id="posts_list" class="col-md-12">
+    <form class="card">
+        <div class="card-header d-flex justify-content-between">
+            <label for="id">번호 : [[${posts.id}]]</label>
+            <input type="hidden" id="id" th:value="${posts.id}"> <!-- label 연결 -->
+            <label for="content">[[${posts.createDate}]]</label>
+        </div>
+        <div class="card-header d-flex justify-content-between">
+            <label for="content">작성자 :[[${posts.writer}]] </label>
+            <label for="content"><i class=" bi bi-eye-fill"> [[${posts.view}]] </i></label>
+        </div>
+        <div class="card-body">
+            <label for="title">제목</label>
+            <input type="text" class="form-control" id="title" th:value="${posts.title}" readonly>
+            <br/>
+            <label for="content">내용</label>
+            <textarea rows="5" class="form-control" id="content" readonly th:text="${posts.content}"></textarea>
+        </div>
+    </form>
+
+    <!-- Buttons -->
+    <div th:if="${user}">
+        <a href="/" role="button" class="btn btn-info bi bi-arrow-return-left"> 목록</a>
+        <span th:if="${writer}">
+            <a th:href="@{/posts/update/{id}(id=${posts.id})}" role="button" class="btn btn-primary bi bi-pencil-square"> 수정</a>
+            <button type="button" onclick="" id="btn-delete" class="btn btn-danger bi bi-trash"> 삭제</button>
+        </span>
+    </div>
+    <div th:unless="${user}">
+        <a href="/" role="button" class="btn btn-info bi bi-arrow-return-left"> 목록</a>
+    </div>
+
+    <!-- Comments -->
+    <div th:replace="~{comment/list :: list}"></div>
+    <div th:replace="~{comment/form :: form}"></div>
+</div>
+<div th:replace="~{layout/footer :: footer}"></div>
+
+
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<div th:fragment="posts-page" class="pagination justify-content-center">
+    <div th:if="${hasPrev}">
+        <a th:href="'?page=' + ${previous}" role="button" class="btn btn-lg bi bi-caret-left-square-fill"></a>
+    </div>
+    <div th:unless="${hasPrev}">
+        <a href="?page=${previous}" role="button" class="btn btn-lg bi bi-caret-left-square-fill disabled"></a>
+    </div>
+
+    <div th:if="${hasNext}">
+        <a th:href="'?page=' + ${next}" role="button" class="btn btn-lg bi bi-caret-right-square-fill"></a>
+    </div>
+    <div th:unless="${hasNext}">
+        <a href="?page=${next}" role="button" class="btn btn-lg bi bi-caret-right-square-fill disabled"></a>
+    </div>
+</div>
+</html>
