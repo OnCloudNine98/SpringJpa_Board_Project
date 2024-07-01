@@ -54,21 +54,21 @@
     
 - **DB 설계**
     
-    ![Untitled](%E1%84%80%E1%85%A6%E1%84%89%E1%85%B5%E1%84%91%E1%85%A1%E1%86%AB%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%2074aa89fd3d6a44808ca7c974d28ca2d0/Untitled.png)
+    ![Untitled](readme-img/Untitled.png)
     
-    ![Untitled](%E1%84%80%E1%85%A6%E1%84%89%E1%85%B5%E1%84%91%E1%85%A1%E1%86%AB%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%2074aa89fd3d6a44808ca7c974d28ca2d0/Untitled%201.png)
+    ![Untitled](readme-img/Untitled2.png)
     
-    ![Untitled](%E1%84%80%E1%85%A6%E1%84%89%E1%85%B5%E1%84%91%E1%85%A1%E1%86%AB%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%2074aa89fd3d6a44808ca7c974d28ca2d0/Untitled%202.png)
+    ![Untitled](readme-img/Untitled2.png)
     
-    ![Untitled](%E1%84%80%E1%85%A6%E1%84%89%E1%85%B5%E1%84%91%E1%85%A1%E1%86%AB%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%2074aa89fd3d6a44808ca7c974d28ca2d0/Untitled%203.png)
+    ![Untitled](readme-img/Untitled3.png)
     
 - **API 설계**
     
-    ![Untitled](%E1%84%80%E1%85%A6%E1%84%89%E1%85%B5%E1%84%91%E1%85%A1%E1%86%AB%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%2074aa89fd3d6a44808ca7c974d28ca2d0/Untitled%204.png)
+    ![Untitled](readme-img/Untitled4.png)
     
-    ![Untitled](%E1%84%80%E1%85%A6%E1%84%89%E1%85%B5%E1%84%91%E1%85%A1%E1%86%AB%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%2074aa89fd3d6a44808ca7c974d28ca2d0/Untitled%205.png)
+    ![Untitled](readme-img/Untitled5.png)
     
-    ![Untitled](%E1%84%80%E1%85%A6%E1%84%89%E1%85%B5%E1%84%91%E1%85%A1%E1%86%AB%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%2074aa89fd3d6a44808ca7c974d28ca2d0/Untitled%206.png)
+    ![Untitled](readme-img/Untitled6.png)
     
 
 ---
