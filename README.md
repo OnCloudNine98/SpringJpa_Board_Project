@@ -52,8 +52,9 @@
     - 회원 관리기능
     : 게시판/댓글 기능과 유사한 구조에 추가로 Spring Security 과 OAuth 2.0 를 사용한 구조
     
-- **DB 설계**
-    
+
+<details>
+    <summary>DB 설계</summary>
     ![Untitled](readme-img/Untitled.png)
     
     ![Untitled](readme-img/Untitled2.png)
@@ -61,6 +62,7 @@
     ![Untitled](readme-img/Untitled2.png)
     
     ![Untitled](readme-img/Untitled3.png)
+</details>
     
 - **API 설계**
     
@@ -79,7 +81,7 @@
 
 ### **공통 기능**
 
-[Date 관련 컬럼에 관한 엔티티](%E1%84%80%E1%85%A6%E1%84%89%E1%85%B5%E1%84%91%E1%85%A1%E1%86%AB%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%2074aa89fd3d6a44808ca7c974d28ca2d0/Date%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%A7%E1%86%AB%20%E1%84%8F%E1%85%A5%E1%86%AF%E1%84%85%E1%85%A5%E1%86%B7%E1%84%8B%E1%85%A6%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%92%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%A6%E1%86%AB%E1%84%90%E1%85%B5%E1%84%90%E1%85%B5%20e46cebaabe6d465e9e5c6b209e5214e7.md)
+[Date 관련 컬럼에 관한 엔티티](https://transparent-baron-9db.notion.site/Date-e46cebaabe6d465e9e5c6b209e5214e7?pvs=74)
 
 [HTML공통 구성 요소 Header/Footer](%E1%84%80%E1%85%A6%E1%84%89%E1%85%B5%E1%84%91%E1%85%A1%E1%86%AB%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%2074aa89fd3d6a44808ca7c974d28ca2d0/HTML%E1%84%80%E1%85%A9%E1%86%BC%E1%84%90%E1%85%A9%E1%86%BC%20%E1%84%80%E1%85%AE%E1%84%89%E1%85%A5%E1%86%BC%20%E1%84%8B%E1%85%AD%E1%84%89%E1%85%A9%20Header%20Footer%20d7fb5b2781bd430ea1a829f4b0cddaa3.md)
 
