@@ -10,6 +10,7 @@
 ## 기능 및 사용 기술
 
 ### **프로젝트 기능**
+![Untitled](readme-img/prototype.png)
 
 - **게시판 -** CRUD 기능, 조회수, 페이징 및 검색 처리
 - **사용자 -** Security 회원가입 및 로그인, OAuth 2.0 구글, 네이버 로그인, 회원정보 수정, 
@@ -53,8 +54,8 @@
     : 게시판/댓글 기능과 유사한 구조에 추가로 Spring Security 과 OAuth 2.0 를 사용한 구조
     
 
-<details>
-    <summary>DB 설계</summary>
+
+- **API 설계**
     ![Untitled](readme-img/Untitled.png)
     
     ![Untitled](readme-img/Untitled2.png)
@@ -62,7 +63,7 @@
     ![Untitled](readme-img/Untitled2.png)
     
     ![Untitled](readme-img/Untitled3.png)
-</details>
+---
     
 - **API 설계**
     
