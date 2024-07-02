@@ -1,4 +1,5 @@
 # 게시판 프로젝트
+![Untitled](readme-img/prototype.jpeg)
 
 # 소개
 
@@ -10,7 +11,6 @@
 ## 기능 및 사용 기술
 
 ### **프로젝트 기능**
-![Untitled](readme-img/prototype.png)
 
 - **게시판 -** CRUD 기능, 조회수, 페이징 및 검색 처리
 - **사용자 -** Security 회원가입 및 로그인, OAuth 2.0 구글, 네이버 로그인, 회원정보 수정, 
