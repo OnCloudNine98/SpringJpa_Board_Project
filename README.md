@@ -109,7 +109,7 @@
 [[Comment]댓글 수정및 삭제 + 수정/삭제 제한 기능 ](https://transparent-baron-9db.notion.site/Comment-21f0668fb2c44907beadcfa9d6f4bbc4)
 
 ### **회원 관리 기능( Spring Security / OAuth 2.0 개념 추가 )**
-[Spring Security 의 개념과 원리](https://www.notion.so/Spring-Security-5b192d4dabf14c79b3af7d7868176521?pvs=21)
+[Spring Security 의 개념과 원리](https://transparent-baron-9db.notion.site/Spring-Security-5b192d4dabf14c79b3af7d7868176521)
 
 [Spring Security 를 이용한 회원가입 및 로그인](https://transparent-baron-9db.notion.site/Spring-Security-1cb8b41398094b2da5fe7c9f5cc213ad)
 
@@ -125,7 +125,7 @@
 
 &nbsp;
 
-[OAuth2.0 의 개념과 원리](https://www.notion.so/OAuth2-0-9b2e9be233a143f89422fe74e6a53c7e?pvs=21)
+[OAuth2.0 의 개념과 원리](https://transparent-baron-9db.notion.site/OAuth2-0-9b2e9be233a143f89422fe74e6a53c7e)
 
 [OAuth 2.0 를 이용한 로그인 기능[구글]](https://transparent-baron-9db.notion.site/OAuth-2-0-739067e99ccf49a5810ce99b53c6f16e)
 
