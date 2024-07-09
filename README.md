@@ -139,8 +139,9 @@
 
 ## 배포
 
-
 [AWS를 이용한 배포(RDS , EC2 이용) ](https://transparent-baron-9db.notion.site/AWS-RDS-EC2-561365f78db640b4ac6dc5a269a3fe9d)
+
+[배포 과정중 발생한 Error ](https://transparent-baron-9db.notion.site/Error-65607c2e715949c0968025c0987fa9d2)
 
 ---
 
