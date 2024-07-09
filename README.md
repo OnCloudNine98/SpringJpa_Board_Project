@@ -139,7 +139,6 @@
 
 ## 배포
 
-[AWS를 이용한 배포 1(ElasticBeanStalk)](https://transparent-baron-9db.notion.site/AWS-1-ElasticBeanStalk-1eaa648f43294ccdbd75fa75524813a1)
 
 [AWS를 이용한 배포(RDS , EC2 이용) ](https://transparent-baron-9db.notion.site/AWS-RDS-EC2-561365f78db640b4ac6dc5a269a3fe9d)
 
